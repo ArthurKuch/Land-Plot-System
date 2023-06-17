@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: Regular;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 14px;
+    background: rgba(247,214,40,1);
+  }
+
+  ul {
+    list-style-type: none !important;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.liz {
+    float: left;
+}
+
+.liz a {
+    display: block !important;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+}
+
+
+
+.liz a:hover:not(.active) {
+    background-color:white;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgba(247,214,40,1);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: px
+}
+
+.add-experience:hover {
+    font-family: Montserrat;
+    font-weight: Regular;
+    background: rgba(247,214,40,1);
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+footer {
+    background-color:  #e9df78 ;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    padding: 1rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center ;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .socialicon{
+    margin-left: 46%;
+ }
+ 
+ .social-icon{
+   color: #525252 ;
+   transition: color 0.2s;
+   text-decoration: none;
+   margin: 0 10px;
+ }
+ 
+ .social-icon:hover{
+   color:#333333
+ }
+
+ ion-icon {
+    font-size: 30px;
+  }
+
+table{
+    width: 300px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+td,th{
+    color: blue;
+    padding: 3px;
+}
+
+TH {
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+  
+ 

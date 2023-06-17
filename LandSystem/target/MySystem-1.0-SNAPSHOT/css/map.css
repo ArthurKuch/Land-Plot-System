@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: Regular;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+    background: rgba(247,214,40,1);
+}
+
+ul {
+    list-style-type: none !important;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.liz {
+    float: left;
+}
+
+.liz a {
+    display: block !important;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+}
+
+
+
+.liz a:hover:not(.active) {
+    background-color:white;
+}
+
+.myMap{
+    width: 1300px;
+    height: 783px;
+  }
+
+  .information {
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    background: #ffffff;
+    max-width: 264px;
+    height: 568px;
+    border-radius: 10px;
+}
+
+.information form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+#geoLine{
+        text-align: left;
+        color: #AF0D0D;
+        font-size: 18px;
+        font-weight: 700;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+footer {
+    background-color:  #e9df78 ;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    padding: 1rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center ;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .socialicon{
+    margin-left: 46%;
+ }
+ 
+ .social-icon{
+   color: #525252 ;
+   transition: color 0.2s;
+   text-decoration: none;
+   margin: 0 10px;
+ }
+ 
+ .social-icon:hover{
+   color:#333333
+ }
+
+ ion-icon {
+    font-size: 30px;
+  }
